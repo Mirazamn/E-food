@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(0deg, #F9FAFF, #F9FAFF);
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    gap: 43px;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 54px 0 0 0;
+}
+
+
+.logo {
+    width: 106px;
+    height: 38.55px;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+
+ul li a {
+    color: #363853;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.main-nav {
+    color: #FF6838;
+}
+
+
+header nav {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+
+.btn {
+    background-color: #FF7A50;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 27px;
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    cursor: pointer;
+}
+
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 52px 0 0 0;
+}
+
+
+main img {
+    width: 728px;
+    height: 681px;
+}
+
+
+.main-head {
+    font-size: 66px;
+    font-weight: 500;
+    color: #363853;
+    width: 530px;
+}
+
+
+.main-head span {
+    color: #FF7A50;
+}
+
+
+.main-par {
+    width: 513px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #363853;
+    margin: 23px 0 45px 0;
+}
+
+/* Second section */
+.second {
+    flex-direction: row;
+}
+
+
+.second-head {
+    width: 384px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+.second-btn {
+    border-radius: 30px 30px 1px 30px;
+}
+
+
+.second-par {
+    margin: 95px 0 141px 0;
+}
+
+
+/* Top restaurant */
+.pizza {
+    width: 361px;
+    height: 299px;
+}
+
+
+.pizza-btn {
+    padding: 5px 27px;
+    margin: 0 0 0 27px;
+}
+
+
+.fa-clock {
+    margin: 0 8px 0 0;
+}
+
+
+.card-par {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #363853;
+    text-align: center;
+    display: block;
+}
+
+
+.card h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #363853;
+    margin: 22px 0 14px 30px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 53px 5px 53px 5px;
+    padding: 0 0 25px 0;
+}
+
+
+.pizza_name {
+    font-size: 24px;
+    font-weight: 400;
+    color: #363853;
+    text-align: left;
+}
+
+
+/* Mobile App */
+.mobile-app {
+    margin: 162px 0 0 0;
+}
+.app {
+    width: 616.74px;
+    height: 480.59px;
+}
+
+
+.mobile {
+    font-size: 36px;
+    font-weight: 500;
+    color: #363853;
+}
+
+
+.par-mobileapp {
+    width: 538px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #363853;
+    margin: 30px 0 0 0;
+}
+
+
+/* E-mail Subsribtion */
+.email-subsribtion {
+    background-color: #FF7A50;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 166px 57px 166px;
+    border-radius: 20px;
+    margin: 110px 0 200px 0;
+}
+
+
+.email-subsribtion h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.input {
+    margin: 73px 0 0 0;
+}
+
+
+.input input {
+    border: none;
+    color: red;
+    width: 200px;
+}
+
+
+.input {
+    background-color: #FFFFFF;
+    border-radius: 70px;
+    padding: 10px 10px 10px 43px;
+    width: 838.5px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 24px 54px 0px #00000012;
+}
+
+
+
+.input button {
+    background-color: #FF7A50;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 70px;
+    width: 191.1px;
+    height: 58.5px;
+}
